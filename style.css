@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+}
+
+.grid{
+    height: 600px;
+    width: 600px;
+    background-color:black;
+    
+    display: flex;
+    flex-flow: wrap; 
+}
+
+.controls{
+    border: 1px solid red; 
+}
+
+.box{
+    background-color: white;
+    
+    border: 2px solid black;
+}
+
+/*.grid{
+    height: 500px;
+    width: 600px;
+    display: inline-grid;
+    background-color: grey;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box{
+    border: 1px solid black;
+}*/
