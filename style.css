@@ -2,7 +2,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid green;
+    border: 0.5px solid green;
 }
 
 .grid{
@@ -21,7 +21,8 @@
 .box{
     background-color: white;
     
-    border: 2px solid black;
+    border: 0.5px solid black;
+
 }
 
 /*.grid{
