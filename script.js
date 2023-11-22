@@ -23,6 +23,12 @@ function reset(){
     }
     console.log(count)
 }
+
+grid.addEventListener("mouseover",function(e){
+    if (e.target.matches = "box"){
+        e.target.classList.add("clicked")
+    }
+})
 /*function createBox(){
     var box = document.createElement("div")
     box.classList.add("box")

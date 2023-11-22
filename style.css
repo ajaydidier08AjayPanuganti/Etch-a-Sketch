@@ -20,9 +20,13 @@
 
 .box{
     background-color: white;
-    
+    border-radius: 5px;
     border: 0.5px solid black;
 
+}
+
+.box.clicked{
+    background-color: red;
 }
 
 /*.grid{
