@@ -7,11 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <div class = "header">
+        <h1>Etch-A-Sketch</h1>
+        <h2>Select the size of the grid and move your mouse to start drawing</h2>
+    </div>
     <div class = "container">
         <div class = "controls">
-            <button class = "click">Click</button>
-            <input type = "range" min = "4" max = "64" value = "8" oninput="rangeValue.innerText = this.value">
-            <p id = "rangeValue">8</p>
+            <div class = "controls1">
+                <input type = "range" min = "4" max = "64" value = "8" oninput="rangeValue.innerText = this.value">
+                <p id = "rangeValue">8</p>
+            </div>
+            <button class = "click">Submit/Reset</button>
         </div>
         <div class = "grid">
         </div>

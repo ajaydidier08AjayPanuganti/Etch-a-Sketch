@@ -1,28 +1,31 @@
+.header{
+    text-align: center;
+    padding: 50px;
+}
 .container{
     display:flex;
     justify-content: center;
-    align-items: center;
-    border: 0.5px solid green;
 }
 
 .grid{
     height: 600px;
     width: 600px;
     background-color:black;
-    
     display: flex;
     flex-flow: wrap; 
 }
 
 .controls{
-    border: 1px solid red; 
+    border: 1px solid red;
+    padding-top: 200px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .box{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 0.5px solid black;
-
 }
 
 .box.clicked{
