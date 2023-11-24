@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class = "header">
         <h1>Etch-A-Sketch</h1>
-        <h2>Select the size of the grid and move your mouse to start drawing</h2>
+        <h2>Select the size of the grid and move your mouse over the box to start drawing</h2>
     </div>
     <div class = "container">
         <div class = "controls">
@@ -17,7 +20,7 @@
                 <input type = "range" min = "4" max = "64" value = "8" oninput="rangeValue.innerText = this.value">
                 <p id = "rangeValue">8</p>
             </div>
-            <button class = "click">Submit/Reset</button>
+            <button class = "click">Submit / Reset</button>
         </div>
         <div class = "grid">
         </div>
